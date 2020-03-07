@@ -21,7 +21,7 @@ class Chessboard():
     def traverse(self, board, cur_loc, moves, steps):
         if steps == self.size ** 2: return True
 
-        for i in range(self.size):
+        for i in range(len(moves)):
             next = (cur_loc[0] + moves[i][0], cur_loc[1] + moves[i][1])
             if self.steppable(next, board):
                 board[next[0]][next[1]] = steps
