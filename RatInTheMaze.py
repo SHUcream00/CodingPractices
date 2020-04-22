@@ -1,6 +1,7 @@
 '''
 Backtracking  practice #2
 Rat In The Maze
+Fixed
 '''
 class Maze():
     def __init__(self, maze):
