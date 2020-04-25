@@ -13,3 +13,6 @@ singMixin(obj)
 }
 };
 })();
+
+//motionModule.glideMixin(duck);
+//duck.glide();
